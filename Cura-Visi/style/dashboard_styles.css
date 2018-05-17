@@ -1,0 +1,117 @@
+
+
+a:focus {
+	outline: 1px dotted invert;
+	}
+
+
+ol {
+	list-style: decimal;
+	list-style-position: inside;
+}
+
+ul.bullets {
+	list-style: disc;
+	list-style-position: inside;
+	}
+
+ul.bullets li {
+	margin-left: 20px;
+	margin-bottom: 5px;
+	}
+
+a, 
+a:visited { 
+	color:#0063be; text-decoration: none; 
+	}
+
+a:hover, a:active { 
+	text-decoration: underline; 
+	}
+
+
+
+
+/* -------------------- Page elements -------------------- */
+
+
+
+
+
+div.module h2 span { 
+	/* Background left image */ 
+	background: url(module-header-right-bg.gif) no-repeat top right; 
+	display: block;
+	line-height: 20px; /* CHANGE THIS VALUE ACCORDING TO BUTTONG HEIGHT */
+	padding: 7px 0 5px 18px;
+
+	}
+
+div.module table {
+	width: 100%; 
+	margin: 0 0 10px 0;
+	border-left: 1px solid #d9d9d9;
+	border-bottom: 1px solid #d9d9d9;
+	}
+
+div.module table.tr {
+	border-collapse: separate;
+	border-right: 1px solid #aaaaaa;
+	border-left: 1px solid #aaaaaa;
+	}
+
+div.module table th {
+	background-color: #eeeeee;
+	color: #444444;
+	padding: 5px;
+	text-align: left;
+	border-right: 1px solid #d9d9d9;
+	border-bottom: 1px solid #d9d9d9;
+	}
+	
+div.module table td {
+	background-color: #ffffff;
+	padding: 5px;;
+	border-right: 1px solid #d9d9d9;
+	}
+
+div.module table tr.odd td { /* You can use this style if you want to do zebra-colored tables with other technique than Table Sorter script used here */
+	background-color: #f1f5fa;
+	}
+	
+.table-apply {
+	width: 40%; float: right; text-align: right; margin-right: 10px;
+	}
+
+
+	
+
+
+/* -------------------- Dashboard -------------------- */
+
+a.dashboard-module, 
+a.dashboard-module:visited { 
+	width: 142px; 
+	height: 142px; 
+	display: block; 
+	float: left; 
+	margin: 0px 13px 13px 0px;  
+	text-align: center; 
+	color: #444444; 
+	}
+	
+a.dashboard-module:hover, 
+a.dashboard-module:active { 
+	background-position: bottom left; 
+	text-decoration: none; 
+	color:#0063be; 
+	}
+
+a.dashboard-module img { 
+	margin-top: 20px; 
+	}
+	
+a.dashboard-module span { 
+	margin-top: 10px; 
+	display: block; 
+	}
