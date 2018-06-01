@@ -1,0 +1,46 @@
+#chat {
+	margin-top: 0px auto;
+	background: #EFEFEF;
+	border: 1px solid #AAF;
+	padding: 0px;
+  	position:absolute;
+	bottom: 150px;
+	right: 568px;
+  	height: 300px;
+}
+
+#chatResults {
+	width:300px;
+	background: #EFEFEF;
+	border: 1px solid #AAF;
+	position: absolute;
+	bottom: 150px;
+	right: 263px;
+
+	overflow-y: scroll;
+}
+
+.chatline {
+	text-decoration: italics;
+}
+
+.author {
+	font-weight: bold;
+}
+
+#footer{
+margin-left:225px;
+width: 900px;
+height: 30px;
+background: #F1C608;
+clear: all;
+border-top: solid 3px black;
+}
+
+#footer1{
+width: 900px;
+height: 30px;
+background: #F1C608;
+clear: all;
+border-top: solid 3px black;
+}
